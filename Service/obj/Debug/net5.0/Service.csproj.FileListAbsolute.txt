@@ -1,0 +1,17 @@
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Service.deps.json
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Service.dll
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\ref\Service.dll
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Service.pdb
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Repository.dll
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Shared.dll
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Repository.pdb
+C:\Users\glisi\source\repos\ScoreTracker2\Service\bin\Debug\net5.0\Shared.pdb
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.dll
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\ref\Service.dll
+C:\Users\glisi\source\repos\ScoreTracker2\Service\obj\Debug\net5.0\Service.pdb
