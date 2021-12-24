@@ -45,14 +45,24 @@ namespace Service
             return result;
         }
 
+        public async Task<List<League>> GetAllLeague()
+        {
+            var result = await leagueRepository.GetAllSet();
+            return result.Include(x => x.Teams).ToList();
+        }
+
         public async Task<League> GetAsyncById(int id)
         {
             if (id < 1)
             {
                 throw new ArgumentException("id must be bigger than 0");
             }
-            var result = await leagueRepository.GetAsyncById(id);
-            return result;
+            var rez = await leagueRepository.GetAllSet();
+            var _league = await rez.Include(x => x.Teams).Where(r => r.Id == id).FirstOrDefaultAsync();
+            
+            return _league;
+            //var result = await leagueRepository.GetAsyncById(id);
+            //return result;
         }
 
         public async Task<League> UpdateAsync(League model)

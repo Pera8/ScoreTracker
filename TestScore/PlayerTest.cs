@@ -77,7 +77,7 @@ namespace TestScore
 
             // Assert
 
-            Assert.AreEqual(resultAllTeams.Count, 2);
+            Assert.AreEqual(resultAllTeams.Count, 3);
             CollectionAssert.DoesNotContain(resultAllTeams, resultGetById);
         }
     }

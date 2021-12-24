@@ -80,6 +80,7 @@ namespace ScoreTracker2
             services.AddTransient<IPlayerService, PlayerService>();
             services.AddTransient<ISeasonService, SeasonService>();
             services.AddTransient<ITeamService, TeamService>();
+            services.AddTransient<IActionPlayerSevice, ActionPlayerService>();
             services.AddTransient<AuthTokenService>();
 
             services.AddControllers();

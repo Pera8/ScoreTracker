@@ -11,6 +11,7 @@ namespace Service.Interface
     public interface ILeagueService
     {
         Task<List<League>> GetAll();
+        Task<List<League>> GetAllLeague();
         Task<League> AddAsync(League model);
 
         Task<League> UpdateAsync(League model);

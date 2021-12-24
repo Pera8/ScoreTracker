@@ -26,7 +26,7 @@ namespace ScoreTracker2.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAllLeagues()
         {
-            return Ok(await leagueService.GetAll());
+            return Ok(await leagueService.GetAllLeague());
         }
 
         [HttpGet("{id:int}")]

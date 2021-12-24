@@ -46,6 +46,11 @@ namespace TestScore.Service
             throw new NotImplementedException();
         }
 
+        public Task<List<Player>> GetAllSet(string include)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Player> GetAsyncById(int id)
         {
             var result = players.FirstOrDefault(e => e.Id == id);
