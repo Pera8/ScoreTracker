@@ -19,7 +19,6 @@ C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microso
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
@@ -28,7 +27,6 @@ C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microso
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -78,3 +76,18 @@ C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ScoreTr
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ref\ScoreTracker2.dll
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ScoreTracker2.pdb
 C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ScoreTracker2.genruntimeconfig.cache
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\en-US\ScoreTracker2.resources.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ScoreTracker2.csproj.GenerateResource.cache
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\en-US\ScoreTracker2.resources.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\fr-FR\ScoreTracker2.resources.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\fr-FR\ScoreTracker2.resources.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Localization.AspNetCore.TagHelpers.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ScoreTracker2.Resource.Localize.Resource.en-US.resources
+C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2\obj\Debug\net5.0\ScoreTracker2.Resource.Localize.Resource.fr-FR.resources

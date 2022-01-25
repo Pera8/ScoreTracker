@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,10 +15,12 @@ namespace Shared.Helper
     public class ErrorHandlingMiddleware
     {
         private readonly RequestDelegate next;
+        private readonly ILogger _logger;
 
-        public ErrorHandlingMiddleware(RequestDelegate next)
+        public ErrorHandlingMiddleware(RequestDelegate next, ILoggerFactory loggerFactory)
         {
             this.next = next;
+            _logger = loggerFactory.CreateLogger<ErrorHandlingMiddleware>();
         }
 
         public async Task Invoke(HttpContext context)
@@ -29,6 +32,14 @@ namespace Shared.Helper
             catch (Exception ex)
             {
                 await HandleExceptionAsync(context, ex);
+            }
+            finally
+            {
+                _logger.LogInformation(
+                    "Request {method} {url} => {statusCode}",
+                    context.Request?.Method,
+                    context.Request?.Path.Value,
+                    context.Response?.StatusCode);
             }
         }
 

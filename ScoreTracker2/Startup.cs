@@ -2,21 +2,30 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Localization.Routing;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Repository;
 using Repository.Models;
 using Repository.Repository;
 using Repository.Repository.IRepository;
+using ScoreTracker2.Localize;
 using Service;
 using Service.Interface;
 using Shared.Helper;
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
+using RouteDataRequestCultureProvider = ScoreTracker2.Localize.RouteDataRequestCultureProvider;
 
 namespace ScoreTracker2
 {
@@ -41,6 +50,29 @@ namespace ScoreTracker2
                 opt.Tokens.ProviderMap.Add("Default", new TokenProviderDescriptor(typeof(IUserTwoFactorTokenProvider<User>)));
             }).AddEntityFrameworkStores<AppDbContext>();
 
+            services.AddLocalization(options => options.ResourcesPath = "");
+            services.Configure<RequestLocalizationOptions>
+                (
+                options =>
+                {
+                    var supportedCultures = new List<CultureInfo>
+                    {
+                        new CultureInfo("en-US"),
+                        new CultureInfo("fr-FR")
+                    };
+
+                    options.DefaultRequestCulture = new RequestCulture(culture: "en-US", uiCulture: "en-US");
+                    options.SupportedCultures = supportedCultures;
+                    options.SupportedUICultures = supportedCultures;
+                    options.RequestCultureProviders = new[] { new RouteDataRequestCultureProvider { IndexOfCulture = 1, IndexofUICulture = 1 } };
+                }
+                );
+
+            services.Configure<RouteOptions>(options =>
+            {
+                options.ConstraintMap.Add("culture", typeof(LanguageRouteConstraint));
+            }
+            );
 
             var appSettingsSection = Configuration.GetSection("AppSettings");
             IServiceCollection serviceCollection = services.Configure<AppSettings>(appSettingsSection);
@@ -135,7 +167,7 @@ namespace ScoreTracker2
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -143,7 +175,11 @@ namespace ScoreTracker2
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ScoreTracker2 v1"));
             }
+            var localizeOptions = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(localizeOptions.Value);
 
+            loggerFactory.AddLog4Net();
+            app.UseMiddleware<ErrorHandlingMiddleware>();
             app.UseHttpsRedirection();
 
             app.UseRouting();

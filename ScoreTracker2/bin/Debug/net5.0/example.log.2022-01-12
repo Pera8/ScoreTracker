@@ -1,0 +1,48 @@
+2022-01-12 14:22:30,143  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 14:22:30,294  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 14:22:30,300  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 14:27:29,798  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 14:27:30,004  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 14:27:30,039  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 14:59:12,541  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 14:59:12,639  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 14:59:12,646  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:01:15,436  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /api/auth/Register => 200
+ 2022-01-12 15:15:04,280  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /api/auth/Register => 200
+ 2022-01-12 15:21:12,583  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:21:12,711  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:21:12,720  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:22:18,344  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /fr-FR/Auth/Register => 200
+ 2022-01-12 15:25:30,520  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:25:30,651  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:25:30,660  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:25:51,427  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-EN/Auth/Register => 404
+ 2022-01-12 15:26:24,452  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-US/Auth/Register => 200
+ 2022-01-12 15:26:46,470  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-US/Auth/Register => 200
+ 2022-01-12 15:31:03,424  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:31:03,540  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:31:03,548  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:31:39,135  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /fr-FR/Auth/Register => 200
+ 2022-01-12 15:32:26,709  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /fr-FR/Auth/Register => 200
+ 2022-01-12 15:38:59,390  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:38:59,499  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:38:59,505  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:39:26,148  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-US/Auth/Register => 200
+ 2022-01-12 15:40:24,488  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-US/Auth/Register => 200
+ 2022-01-12 15:43:41,464  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:43:41,575  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:43:41,582  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:44:07,575  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-US/Auth/Register => 200
+ 2022-01-12 15:45:48,205  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:45:48,303  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:45:48,309  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:46:16,847  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /en-US/Auth/Register => 200
+ 2022-01-12 15:51:44,923  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:51:45,010  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:51:45,016  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:52:19,316  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /fr-FR/Auth/Register => 200
+ 2022-01-12 15:53:44,567  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2022-01-12 15:53:44,699  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2022-01-12 15:53:44,705  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\glisi\source\repos\ScoreTracker2\ScoreTracker2
+ 2022-01-12 15:54:17,417  INFO Shared.Helper.ErrorHandlingMiddleware.MoveNext [0] - MESSAGE: Request POST /fr-FR/Auth/Register => 200
+ 
